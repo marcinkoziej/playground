@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# -*- sh -*-
+
+
+mvn install:install-file -Dpackaging=jar -DgroupId=ch.randelshofer -DartifactId=quaqua -Dversion=8.0 -Dfile=quaqua.jar
+
+mvn install:install-file -Dpackaging=jar -DgroupId=com.explodingpixels -DartifactId=mac_widgets -Dversion=0.9.5 -Dfile=mac_widgets-0.9.5.jar
+
